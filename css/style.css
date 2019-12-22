@@ -1,0 +1,41 @@
+.leftbox {
+	position: fixed;
+	background: #283643;
+	width: 12rem;
+	top: 3.5rem;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	margin-bottom: 0;
+}
+.leftbox li {
+	list-style-type:none;
+	width: 100%;
+	padding: 0 2rem;
+	height: 3rem;
+	line-height: 3rem;
+}
+.leftbox li:hover {
+	background: #3c4248;
+}
+.leftbox li.active {
+	background: #3c4248;
+}
+.leftbox a {
+	text-decoration: none;
+	color: #fff;
+}
+.rightbox {
+	position: fixed;
+	top: 3.5rem;
+	bottom: 0;
+	left: 12rem;
+	right: 0;
+	overflow: auto;
+}
+h6 {
+	height: 3rem;
+	line-height: 3rem;
+	color: #6c757d;
+	border-bottom: 2px solid #e9ecef;
+}
